@@ -7,7 +7,7 @@ education:
   courses:
   - course: PhD candidate in Toxicology (Thesis 50% complete)
     institution: James Cook University 
-    year: Current 
+    year: Currently enrolled 
   - course: Masters in Pharmacology and Toxicology 
     institution: West Bengal University of Animal and Fishery Sciences 
     year: 2009
@@ -16,12 +16,12 @@ education:
     year: 2007
 email: ""
 interests:
-- Health Data Science 
+- Health Data Sciences 
 - Statistics 
 - Open-source programming languages  
 name: Prashant Nair 
 organizations:
-- name: James Cook University 
+- name: James Cook University, Australia 
   url: ""
 role: PhD Candidate in Computational Toxicology 
 social:
@@ -30,13 +30,16 @@ social:
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/Prashan57554650
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Pame266
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/prashant4toxicology/
+- icon: r-project
+  icon_pack: fab
+  link: http://rpubs.com/PNair
 superuser: true
 user_groups:
 - Researchers
