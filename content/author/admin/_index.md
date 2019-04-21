@@ -19,11 +19,11 @@ interests:
 - Data Science 
 - Statistics 
 - Health Sciences 
-name: Nelson Bighetti
+name: Prashant Nair 
 organizations:
-- name: Stanford University
+- name: James Cook University 
   url: ""
-role: Professor of Artificial Intelligence
+role: PhD Candidate in Computational Toxicology 
 social:
 - icon: envelope
   icon_pack: fas
