@@ -16,13 +16,15 @@ education:
     year: 2007
 email: ""
 interests:
-- Health Data Sciences 
-- Statistics 
+- Health data sciences 
+- Statistics & Modelling 
 - Open-source programming languages  
+- Pharamcology 
+- Toxicology
 name: Prashant Nair 
 organizations:
 - name: James Cook University, Australia 
-  url: ""
+  url: "https://www.jcu.edu.au/"
 role: PhD Candidate in Computational Toxicology 
 social:
 - icon: envelope
@@ -45,9 +47,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
+<div style="text-align: justify">
 Prashant Nair is a PhD candidate of computational toxicology at the Department of Science and Engineering at the James Cook University, Queensland, Australia. His research interests include developing novel high-throughput chemical toxicity screening flash assays. He develops cannonical pipelines for big-data toxicity analysis using open-source programming languges like R, R Studio, Python, Jupyter, MySQL and Adobe suits.   
-
+</div>
 
 
 
