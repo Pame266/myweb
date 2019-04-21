@@ -16,8 +16,8 @@ education:
     year: 2008
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
+- Data Science 
+- Statistics 
 - Information Retrieval
 name: Nelson Bighetti
 organizations:
