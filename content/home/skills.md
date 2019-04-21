@@ -37,5 +37,17 @@ subtitle = ""
   icon_pack = "fas"
   name = "Writing"
   description = "60%"
+  
+[[feature]]
+  icon = "align-justify"
+  icon_pack = "fas"
+  name = "Data Wrangling"
+  description = "60%"
+
+[[feature]]
+  icon = "adobe"
+  icon_pack = "fab"
+  name = "Illustrator"
+  description = "50%"
 
 +++
