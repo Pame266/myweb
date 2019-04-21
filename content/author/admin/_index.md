@@ -18,7 +18,7 @@ email: ""
 interests:
 - Data Science 
 - Statistics 
-- Information Retrieval
+- Health Sciences 
 name: Nelson Bighetti
 organizations:
 - name: Stanford University
