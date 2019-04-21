@@ -5,20 +5,20 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: PhD candidate in Toxicology (Thesis 50% complete)
+    institution: James Cook University 
+    year: Current 
+  - course: Masters in Pharmacology and Toxicology 
+    institution: West Bengal University of Animal and Fishery Sciences 
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Doctor of Veterinary Medicine (BVSc. & AH)
+    institution: Kerala Agricultural University 
+    year: 2007
 email: ""
 interests:
-- Data Science 
+- Health Data Science 
 - Statistics 
-- Health Sciences 
+- Open-source programming languages  
 name: Prashant Nair 
 organizations:
 - name: James Cook University 
@@ -43,6 +43,8 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Prashant Nair is a PhD candidate of computational toxicology at the Department of Science and Engineering at the James Cook University, Queensland, Australia. His research interests include developing novel high-throughput chemical toxicity screening flash assays. He develops cannonical pipelines for big-data toxicity analysis using open-source programming languges like R, R Studio, Python, Jupyter, MySQL and Adobe suits.   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+
+
+
