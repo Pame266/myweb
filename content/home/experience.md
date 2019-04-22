@@ -62,11 +62,30 @@ date_format = "Jan 2006"
   Responsibilities include:
   
   * PhD study design 
-  * Wet lab research 
+  * Wet-lab research 
   * Data collection and statistics 
   * Conference and seminar presentations 
-  * Scientific report writing (R-Markdown)
+  * Thesis writing (R-Bookdown)
   
   """
-
+[[experience]]
+  title = "Environmental Toxicologist"
+  company = "Abu Dhabi National Oil Company"
+  company_url = "https://www.adnoc.ae/"
+  location = "United Arab Emirates"
+  date_start = "2010-04-20"
+  date_end = "2015-05-01"
+  description = """Implementation of Health, Safety and Environmental    Managemental System.
+  
+  """
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Kerala Agricultural University"
+  company_url = "http://www.kau.in/"
+  location = "India"
+  date_start = "2009-11-20"
+  date_end = "2010-04-01"
+  description = """ Research and teaching Pharmacology and Toxicology.
+  
+  """
 +++
