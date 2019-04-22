@@ -19,7 +19,7 @@ interests:
 - Data wrangling 
 - Statistics 
 - Modelling 
-- Pharamcology 
+- Pharmacology 
 - Toxicology
 - Harward Business Review
 name: Prashant Nair 

@@ -62,8 +62,7 @@ date_format = "Jan 2006"
   Responsibilities include:
   
   * PhD study design 
-  * Wet-lab research 
-  * Data collection and statistics 
+  * Wet-lab research, data collection and statistics 
   * Conference and seminar presentations 
   * Thesis writing (R-Bookdown)
   
