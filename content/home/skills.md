@@ -18,7 +18,7 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "70%"
+  description = "80%"
   
 [[feature]]
   icon = "chart-line"
@@ -30,24 +30,24 @@ subtitle = ""
   icon = "database"
   icon_pack = "fas"
   name = "MySQL"
-  description = "50%"
+  description = "70%"
   
 [[feature]]
   icon = "feather"
   icon_pack = "fas"
   name = "Writing"
-  description = "60%"
+  description = "70%"
   
 [[feature]]
   icon = "align-justify"
   icon_pack = "fas"
   name = "Data Wrangling"
-  description = "60%"
+  description = "80%"
 
 [[feature]]
   icon = "adobe"
   icon_pack = "fab"
   name = "Illustrator"
-  description = "50%"
+  description = "70%"
 
 +++

@@ -18,27 +18,55 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Officer"
+  company = "Public service"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Australia"
+  date_start = "2018-01-08"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Technical and scientific reviews 
+  * Data analysis 
+  * Modelling interpretations 
+  * Environmental Health 
+  """
+[[experience]]
+  title = "Paid intern"
+  company = "The Australian Institute of Marine Science"
+  company_url = "https://www.aims.gov.au/"
+  location = "Australia"
+  date_start = "2017-06-01"
+  date_end = "2017-12-31"
+  description = """Developed high-throughput assay WellTox<sup>TM</sup>.
+  
+  Responsibilities include:
+  
+  * Research 
+  * Data analysis 
+  * Building data handling pipelines 
+  * Scientific report writing (R-Markdown)  
+  
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "PhD candidate (full-time)"
+  company = "James Cook University"
+  company_url = "https://www.jcu.edu.au/"
+  location = "Australia"
+  date_start = "2015-05-20"
+  date_end = "2017-05-31"
+  description = """Principal investigator developing next-generation         toxicity screening assays.
+  
+  Responsibilities include:
+  
+  * PhD study design 
+  * Wet lab research 
+  * Data collection and statistics 
+  * Conference and seminar presentations 
+  * Scientific report writing (R-Markdown)
+  
+  """
 
 +++

@@ -6,7 +6,7 @@ education:
   courses:
   - course: PhD candidate in Computational Toxicology (Thesis 50% complete)
     institution: James Cook University 
-    year: Currently enrolled 
+    year: enrolled since 2015
   - course: Masters in Pharmacology and Toxicology 
     institution: West Bengal University of Animal and Fishery Sciences 
     year: 2009
@@ -21,6 +21,7 @@ interests:
 - Modelling 
 - Pharamcology 
 - Toxicology
+- Harward Business Review
 name: Prashant Nair 
 organizations:
 - name: James Cook University, Australia 
@@ -48,7 +49,7 @@ user_groups:
 - Visitors
 ---
 <div style="text-align: justify">
-Prashant Nair is a PhD candidate of Toxicology at the Department of Science and Engineering, James Cook University. His research interest spans across high-throughput chemical toxicity screening assays, big-data analysis, statistics and modelling. He concurs "best things in the world are free," and therefore prefers openly available, no cost computing languages like R and Python for his day-to-day scientific, statistical and technical needs. Though he is comfortable with multiple free-to-download integrated development environment of modern-day computing, he remains fascinated by all the wonderful things that R-Studio offers to the science. He uses MySQL to manage his database and Adobe's Illustrator for high-quality visual communication with non-technical audience. He is a huge fan and member of many data-oriented online communities like datasciencecentral, R-Bloggers, R-Pubs, Github and Stackoverflow. When not using a computer screen, he follows cricket and enjoys time with his family. 
+Prashant Nair is a PhD candidate of Toxicology at the Department of Science and Engineering, James Cook University. His research interest spans across high-throughput chemical toxicity screening assays, big-data analysis, statistics and modelling. He concurs "best things in the world are free," and therefore prefers openly available, no cost computing languages like R and Python for his day-to-day scientific, statistical and technical needs. Though he is comfortable with multiple free-to-download integrated development environment of the modern-day computing, he remains fascinated by all the wonderful things that R-Studio offers to the data science. He uses MySQL to manage his database and Adobe's Illustrator for high-quality visual communication with non-technical audience. He is a huge fan and member of many data-obsessed online communities like datasciencecentral, R-Bloggers, R-Pubs, Github and Stackoverflow. When not using a computer screen, he follows cricket and enjoys time with his family. 
 </div>
 
 
