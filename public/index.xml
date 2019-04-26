@@ -86,35 +86,45 @@ fit
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
 library(ggpubr)
 ## Loading required package: magrittr&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An ordinary quick plot&lt;/p&gt;
-&lt;p&gt;See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An ordinary quick plot ursing R base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See Figure &lt;a href=&#34;#fig:try&#34;&gt;1&lt;/a&gt; for example&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(&amp;quot;cars&amp;quot;)
 data&amp;lt;-cars
 plot(data)#basic r-plot&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Plot the data up&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sp &amp;lt;- ggscatter(data, x = &amp;quot;dist&amp;quot;, y = &amp;quot;speed&amp;quot;, #mention data and axis 
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:try&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/try-1.png&#34; alt=&#34;Relationship between speed and distance&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Relationship between speed and distance
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Crank the quality of the plot up&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See Figure &lt;a href=&#34;#fig:second&#34;&gt;2&lt;/a&gt; for example&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sp&amp;lt;-ggscatter(data, x = &amp;quot;dist&amp;quot;, y = &amp;quot;speed&amp;quot;, #mention data and axis 
    add = &amp;quot;reg.line&amp;quot;,  # Add regression line
    add.params = list(color = &amp;quot;red&amp;quot;, fill = &amp;quot;lightgray&amp;quot;), # Customize regression line
    conf.int = TRUE # Add confidence interval
    )+ stat_cor(method = &amp;quot;pearson&amp;quot;, label.x = 3, label.y = 30)# Add correlation coefficient
 sp&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:second&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/second-1.png&#34; alt=&#34;Relationship between speed and distance&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Relationship between speed and distance
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Fix the axis lables and titles&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;3&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sp1&amp;lt;-ggpar(sp,xlab = &amp;quot;Speed (mph)&amp;quot;,ylab = &amp;quot;Distance (ft)&amp;quot;,main = &amp;quot;Correlation between car speed and stopping distance&amp;quot;,
+           font.main = c(14, &amp;quot;bold&amp;quot;, &amp;quot;black&amp;quot;),
+           font.x=c(12,&amp;quot;bold&amp;quot;),
+           font.y = c(12,&amp;quot;bold&amp;quot;))#making font bold and beautiful
+sp1&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;Correlation between car speed and stopping distance&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
+Figure 3: Correlation between car speed and stopping distance
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;

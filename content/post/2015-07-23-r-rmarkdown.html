@@ -36,35 +36,45 @@ fit
 <pre class="r"><code>library(ggplot2)
 library(ggpubr)
 ## Loading required package: magrittr</code></pre>
-<p>An ordinary quick plot</p>
-<p>See Figure <a href="#fig:pie">1</a> for example</p>
+<p><strong>An ordinary quick plot ursing R base</strong></p>
+<p>See Figure <a href="#fig:try">1</a> for example</p>
 <pre class="r"><code>data(&quot;cars&quot;)
 data&lt;-cars
 plot(data)#basic r-plot</code></pre>
-<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<p>Plot the data up</p>
-<pre class="r"><code>sp &lt;- ggscatter(data, x = &quot;dist&quot;, y = &quot;speed&quot;, #mention data and axis 
+<div class="figure"><span id="fig:try"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/try-1.png" alt="Relationship between speed and distance" width="672" />
+<p class="caption">
+Figure 1: Relationship between speed and distance
+</p>
+</div>
+<p><strong>Crank the quality of the plot up</strong></p>
+<p>See Figure <a href="#fig:second">2</a> for example</p>
+<pre class="r"><code>sp&lt;-ggscatter(data, x = &quot;dist&quot;, y = &quot;speed&quot;, #mention data and axis 
    add = &quot;reg.line&quot;,  # Add regression line
    add.params = list(color = &quot;red&quot;, fill = &quot;lightgray&quot;), # Customize regression line
    conf.int = TRUE # Add confidence interval
    )+ stat_cor(method = &quot;pearson&quot;, label.x = 3, label.y = 30)# Add correlation coefficient
 sp</code></pre>
-<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<div class="figure"><span id="fig:second"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/second-1.png" alt="Relationship between speed and distance" width="672" />
+<p class="caption">
+Figure 2: Relationship between speed and distance
+</p>
+</div>
+<p><strong>Fix the axis lables and titles</strong></p>
 </div>
 <div id="including-plots" class="section level1">
 <h1>Including Plots</h1>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
+<p>You can also embed plots. See Figure <a href="#fig:pie">3</a> for example:</p>
+<pre class="r"><code>sp1&lt;-ggpar(sp,xlab = &quot;Speed (mph)&quot;,ylab = &quot;Distance (ft)&quot;,main = &quot;Correlation between car speed and stopping distance&quot;,
+           font.main = c(14, &quot;bold&quot;, &quot;black&quot;),
+           font.x=c(12,&quot;bold&quot;),
+           font.y = c(12,&quot;bold&quot;))#making font bold and beautiful
+sp1</code></pre>
 <div class="figure"><span id="fig:pie"></span>
-<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="Correlation between car speed and stopping distance" width="672" />
 <p class="caption">
-Figure 1: A fancy pie chart.
+Figure 3: Correlation between car speed and stopping distance
 </p>
 </div>
 </div>

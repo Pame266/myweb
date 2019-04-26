@@ -35,19 +35,20 @@ library(ggplot2)
 library(ggpubr)
 ```
 
-An ordinary quick plot 
+**An ordinary quick plot ursing R base**
 
-See Figure \@ref(fig:pie) for example
-```{r}
+See Figure \@ref(fig:try) for example
+```{r try, fig.cap='Relationship between speed and distance', tidy=FALSE}
 data("cars")
 data<-cars
 plot(data)#basic r-plot
 ```
 
-Plot the data up 
+**Crank the quality of the plot up**  
 
-```{r}
-sp <- ggscatter(data, x = "dist", y = "speed", #mention data and axis 
+See Figure \@ref(fig:second) for example
+```{r second, fig.cap='Relationship between speed and distance', tidy=FALSE}
+sp<-ggscatter(data, x = "dist", y = "speed", #mention data and axis 
    add = "reg.line",  # Add regression line
    add.params = list(color = "red", fill = "lightgray"), # Customize regression line
    conf.int = TRUE # Add confidence interval
@@ -56,19 +57,17 @@ sp
 ```
 
 
-
+**Fix the axis lables and titles**
 
 
 # Including Plots
 
 You can also embed plots. See Figure \@ref(fig:pie) for example:
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
+```{r pie, fig.cap='Correlation between car speed and stopping distance', tidy=FALSE}
+sp1<-ggpar(sp,xlab = "Speed (mph)",ylab = "Distance (ft)",main = "Correlation between car speed and stopping distance",
+           font.main = c(14, "bold", "black"),
+           font.x=c(12,"bold"),
+           font.y = c(12,"bold"))#making font bold and beautiful
+sp1
 ```
