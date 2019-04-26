@@ -12,13 +12,13 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 # R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is a great tool for statistical reproducibility. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 Correlation plot using in-built dataset ‘Cars’
 
 A data frame with 50 observations on 2 variables.
 
-Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.
+Data source: Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.
 
 ```{r cars}
 summary(cars)
