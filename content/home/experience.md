@@ -57,7 +57,7 @@ date_format = "Jan 2006"
   location = "Australia"
   date_start = "2015-05-20"
   date_end = "2017-05-31"
-  description = """Principal investigator developing next-generation         toxicity screening assays.
+  description = """Principal investigator responsible for developing next-generation toxicity screening assay platforms.
   
   Responsibilities include:
   
@@ -84,7 +84,7 @@ date_format = "Jan 2006"
   location = "India"
   date_start = "2009-11-20"
   date_end = "2010-04-01"
-  description = """ Research and teaching Pharmacology and Toxicology.
+  description = """ Research and teaching of Pharmacology and Toxicology.
   
   """
 +++

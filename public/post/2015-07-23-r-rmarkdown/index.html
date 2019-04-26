@@ -28,10 +28,10 @@
     
   
   <meta name="description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is a great tool for statistical reproducibility. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+For more details, please visit the following link at Rpubs by Prashant Nair: https://rpubs.com/PNair/474584.
 Correlation plot using in-built dataset ‘Cars’
 A data frame with 50 observations on 2 variables.
-Data source: Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.
-summary(cars) ## speed dist ## Min.">
+Data source: Ezekiel, M.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/2015-07-23-r-rmarkdown/">
@@ -121,10 +121,10 @@ summary(cars) ## speed dist ## Min.">
   <meta property="og:url" content="/post/2015-07-23-r-rmarkdown/">
   <meta property="og:title" content=" Technical and Scientific Reporting with R Markdown | Computational Toxicologist">
   <meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is a great tool for statistical reproducibility. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+For more details, please visit the following link at Rpubs by Prashant Nair: https://rpubs.com/PNair/474584.
 Correlation plot using in-built dataset ‘Cars’
 A data frame with 50 observations on 2 variables.
-Data source: Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.
-summary(cars) ## speed dist ## Min."><meta property="og:image" content="/img/icon-192.png">
+Data source: Ezekiel, M."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-02-23T21:13:14-05:00">
@@ -387,7 +387,7 @@ summary(cars) ## speed dist ## Min."><meta property="og:image" content="/img/ico
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -445,6 +445,7 @@ summary(cars) ## speed dist ## Min."><meta property="og:image" content="/img/ico
 <div id="r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is a great tool for statistical reproducibility. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>For more details, please visit the following link at Rpubs by Prashant Nair: <a href="https://rpubs.com/PNair/474584" class="uri">https://rpubs.com/PNair/474584</a>.</p>
 <p>Correlation plot using in-built dataset ‘Cars’</p>
 <p>A data frame with 50 observations on 2 variables.</p>
 <p>Data source: Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.</p>
@@ -469,6 +470,20 @@ fit
 <pre class="r"><code>library(ggplot2)
 library(ggpubr)
 ## Loading required package: magrittr</code></pre>
+<p>An ordinary quick plot</p>
+<p>See Figure <a href="#fig:pie">1</a> for example</p>
+<pre class="r"><code>data(&quot;cars&quot;)
+data&lt;-cars
+plot(data)#basic r-plot</code></pre>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Plot the data up</p>
+<pre class="r"><code>sp &lt;- ggscatter(data, x = &quot;dist&quot;, y = &quot;speed&quot;, #mention data and axis 
+   add = &quot;reg.line&quot;,  # Add regression line
+   add.params = list(color = &quot;red&quot;, fill = &quot;lightgray&quot;), # Customize regression line
+   conf.int = TRUE # Add confidence interval
+   )+ stat_cor(method = &quot;pearson&quot;, label.x = 3, label.y = 30)# Add correlation coefficient
+sp</code></pre>
+<p><img src="/post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 </div>
 <div id="including-plots" class="section level1">
 <h1>Including Plots</h1>
@@ -531,7 +546,7 @@ Figure 1: A fancy pie chart.
   <div class="media-body">
     <h5 class="card-title" itemprop="name"><a href="/authors/admin">Prashant Nair</a></h5>
     <h6 class="card-subtitle">PhD Candidate in Computational Toxicology</h6>
-    <p class="card-text" itemprop="description">My interests include high-throughput screening pipeline deployment using open-source programming languages, big-data wrangling &amp; analysis, statistics and modelling.</p>
+    <p class="card-text" itemprop="description">My interests include high-throughput screening pipeline deployment using open-source programming languages, big-data wrangling, analysis, statistics and modelling.</p>
     <ul class="network-icon" aria-hidden="true">
       
       

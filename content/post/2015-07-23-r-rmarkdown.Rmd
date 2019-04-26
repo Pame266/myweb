@@ -14,6 +14,8 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is a great tool for statistical reproducibility. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
+For more details, please visit the following link at Rpubs by Prashant Nair: <https://rpubs.com/PNair/474584>.
+
 Correlation plot using in-built dataset ‘Cars’
 
 A data frame with 50 observations on 2 variables.
@@ -31,6 +33,26 @@ Load required libraries
 ```{r}
 library(ggplot2)
 library(ggpubr)
+```
+
+An ordinary quick plot 
+
+See Figure \@ref(fig:pie) for example
+```{r}
+data("cars")
+data<-cars
+plot(data)#basic r-plot
+```
+
+Plot the data up 
+
+```{r}
+sp <- ggscatter(data, x = "dist", y = "speed", #mention data and axis 
+   add = "reg.line",  # Add regression line
+   add.params = list(color = "red", fill = "lightgray"), # Customize regression line
+   conf.int = TRUE # Add confidence interval
+   )+ stat_cor(method = "pearson", label.x = 3, label.y = 30)# Add correlation coefficient
+sp
 ```
 
 
