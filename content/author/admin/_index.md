@@ -18,10 +18,10 @@ interests:
 - Health data science 
 - Data wrangling 
 - Statistics 
-- Modelling 
+- Modelling
+- Visualisation
 - Pharmacology 
 - Toxicology
-- Harward Business Review
 name: Prashant Nair 
 organizations:
 - name: James Cook University, Australia 
