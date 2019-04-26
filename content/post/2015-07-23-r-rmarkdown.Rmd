@@ -1,7 +1,7 @@
 ---
-title: "Hi R Markdown"
+title: " Technical and Scientific Reporting with R Markdown"
 author: "Prashant Nair"
-date: 2019-07-23T21:13:14-05:00
+date: 2019-02-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -14,13 +14,28 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-You can embed an R code chunk like this:
+Correlation plot using in-built dataset ‘Cars’
+
+A data frame with 50 observations on 2 variables.
+
+Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.
 
 ```{r cars}
 summary(cars)
 fit <- lm(dist ~ speed, data = cars)
 fit
 ```
+
+Load required libraries 
+
+```{r}
+library(ggplot2)
+library(ggpubr)
+```
+
+
+
+
 
 # Including Plots
 

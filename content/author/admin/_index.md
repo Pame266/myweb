@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include high-throughput chemical toxicity screening assays, big-data analysis, statistics and modelling. 
+bio: My interests include high-throughput screening pipeline deployment using open-source programming languages, big-data wrangling & analysis, statistics and modelling. 
 education:
   courses:
   - course: PhD candidate in Computational Toxicology (Thesis 50% complete)

@@ -36,9 +36,23 @@
     </item>
     
     <item>
-      <title>Hi R Markdown</title>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> Technical and Scientific Reporting with R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Tue, 23 Jul 2019 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>
@@ -47,7 +61,9 @@
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;R Markdown&lt;/h1&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;p&gt;Correlation plot using in-built dataset ‘Cars’&lt;/p&gt;
+&lt;p&gt;A data frame with 50 observations on 2 variables.&lt;/p&gt;
+&lt;p&gt;Ezekiel, M. (1930) Methods of Correlation Analysis. Wiley.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
 ##      speed           dist       
 ##  Min.   : 4.0   Min.   :  2.00  
@@ -65,6 +81,10 @@ fit
 ## Coefficients:
 ## (Intercept)        speed  
 ##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Load required libraries&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(ggpubr)
+## Loading required package: magrittr&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Including Plots&lt;/h1&gt;
@@ -82,20 +102,6 @@ pie(
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +1000</pubDate>
-      
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.
-  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
