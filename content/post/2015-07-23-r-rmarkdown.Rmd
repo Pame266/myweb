@@ -60,7 +60,7 @@ sp
 **Fix the axis lables and titles**
 
 
-# Including Plots
+# Include plots
 
 You can also embed plots. See Figure \@ref(fig:pie) for example:
 
@@ -71,3 +71,12 @@ sp1<-ggpar(sp,xlab = "Speed (mph)",ylab = "Distance (ft)",main = "Correlation be
            font.y = c(12,"bold"))#making font bold and beautiful
 sp1
 ```
+
+
+## References 
+
+Alboukadel, K. (2018). ggpubr: 'ggplot2' Based Publication Ready Plots. Retrieved from https://CRAN.R-project.org/package=ggpubr
+
+H. Wickham. ggplot2: Elegant Graphics for Data Analysis.
+  Springer-Verlag New York, 2016. 
+  
