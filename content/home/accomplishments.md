@@ -61,10 +61,20 @@ date_format = "Jan 2006"
 [[item]]
   organization = "The Australasian College of Toxicology and Risk Assessment"
   organization_url = "https://actra.org.au/"
-  title = "Award for best the PhD project Proposal"
+  title = "Best PhD project Proposal Award"
   url = ""
   certificate_url = "http://actra.org.au/wp-content/uploads/2016/11/ACTRA-2016-Program-PR.pdf"
   date_start = "2016-09-21"
   date_end = "2016-09-23"
-  description = "Best PhD proposal in Toxicology and Risk Assessment"
+  description = "Winner of PhD proposal in Toxicology and Risk Assessment, 2016"
+  
+[[item]]
+  organization = "The Great Barrier Reef Marine Park Authority"
+  organization_url = "http://www.gbrmpa.gov.au/"
+  title = "Science for Management Award"
+  url = ""
+  certificate_url = "http://www.gbrmpa.gov.au/__data/assets/pdf_file/0010/252559/2017-Science-for-Management-Awards_Grant-recipients.pdf"
+  date_start = "2017-09-21"
+  date_end = ""
+  description = "Development of new high-throughput assay and data analysis pipeline for risk assessment of chemical dispersants"
 +++
