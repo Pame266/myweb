@@ -1,7 +1,7 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
+title: "Hi R Markdown"
+author: "Prashant Nair"
+date: 2019-07-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -13,8 +13,6 @@ knitr::opts_chunk$set(collapse = TRUE)
 # R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-You can see an additional example of making publication ready correlation plots at <https://rpubs.com/PNair/474584> by Prashant Nair
 
 You can embed an R code chunk like this:
 
