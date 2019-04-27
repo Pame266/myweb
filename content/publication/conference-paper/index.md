@@ -8,7 +8,7 @@ date: "2010-07-01T00:00:00+10:00"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Getty**](https://shop.getty.edu/collections/getty-publications)'
   focal_point: ""
 links:
 - name: Custom Link
@@ -30,7 +30,7 @@ url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
 url_poster: '#'
 url_project: ""
 url_slides: ""
-url_source: '#'
+url_source: 'https://doi.org/10.1002/jsfa.3806'
 url_video: '#'
 ---
 
