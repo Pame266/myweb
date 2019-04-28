@@ -3,7 +3,7 @@ abstract:
 
 authors:
 - admin
-- et al
+- 
 date: "2010-07-01T00:00:00+10:00"
 doi: ""
 featured: true
