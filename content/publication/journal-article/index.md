@@ -1,18 +1,15 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Effect of chemically dispersed oil on a marine bacteria and coral microbiomes.
 authors:
 - admin
-date: "2015-09-01T00:00:00+10:00"
+- Lone Hoj
+- Michael Oelgemöeller
+- Kirsten Heimann
+date: "2016-09-01T00:00:00+10:00"
 doi: ""
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Wallpaperplay**](https://wallpaperplay.com/board/red-3d-wallpapers)'
   focal_point: ""
 projects: []
 publication: '*Journal of Source Themes, 1*(1)'
@@ -20,18 +17,17 @@ publication_short: ""
 publication_types:
 - "2"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 tags:
 - Source Themes
-title: An example journal article
+title: Ecotoxicity of chemically dispersed oil on coral microbiomes
 url_code: ""
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: http://actra.org.au/wp-content/uploads/2016/11/ACTRA-2016-Program-PR.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""
-url_source: ""
+url_source: "http://actra.org.au/wp-content/uploads/2016/11/ACTRA-2016-Program-PR.pdf"
 url_video: ""
 ---
 
