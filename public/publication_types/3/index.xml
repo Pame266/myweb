@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>An example preprint / working paper</title>
+      <title>High-throughput screening and scale-up issues</title>
       <link>/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +1000</pubDate>
       
       <guid>/publication/preprint/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
+      <description> Supplementary notes can be added here, including code and math.   </description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@ date: "2019-04-07T00:00:00+10:00"
 doi: ""
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: [**TheConversation**](http://theconversation.com/tackling-unethical-authorship-deals-on-scientific-publications-36294)'
   focal_point: ""
 projects: []
 publication: ""
@@ -14,11 +14,10 @@ publication_short: ""
 publication_types:
 - "3"
 slides: ""
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 tags:
 - Source Themes
-title: An example preprint / working paper
+title: High-throughput screening and scale-up issues 
 url_code: ""
 url_dataset: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
