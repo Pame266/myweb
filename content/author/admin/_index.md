@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests include open-source programming languages, big-data, data wrangling, analysis, visualisation, statistics and modelling. 
+bio: My interests include open-source programming languages, big-data wrangling, analysis, visualisation, statistics and modelling. 
 education:
   courses:
   - course: PhD candidate in Computational Toxicology (Thesis 50% complete)
