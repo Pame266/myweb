@@ -4,7 +4,7 @@ authors:
 bio: My interests span accross open-source programming languages, health data science, analysis, visualisation, statistics and modelling. 
 education:
   courses:
-  - course: PhD candidate in Computational Toxicology (Thesis 50% complete)
+  - course: PhD candidate in Computational Toxicology (Thesis 80% complete)
     institution: James Cook University 
     year: enrolled since 2015
   - course: Masters in Pharmacology and Toxicology 
