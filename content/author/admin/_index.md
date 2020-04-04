@@ -16,7 +16,6 @@ education:
 email: "prashantmnair@gmail.com"
 interests:
 - Health data science 
-- Data wrangling 
 - Statistics 
 - Modelling
 - Visualisation
