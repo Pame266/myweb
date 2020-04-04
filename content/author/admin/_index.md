@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests span across open-source programming languages, big-data wrangling, analysis, visualisation, statistics and modelling. 
+bio: My interests span accross open-source programming languages, health data science, analysis, visualisation, statistics and modelling. 
 education:
   courses:
   - course: PhD candidate in Computational Toxicology (Thesis 50% complete)
