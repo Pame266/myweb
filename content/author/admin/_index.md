@@ -20,7 +20,7 @@ interests:
 - Biostatistics 
 - Visualisation
 - Drug Research 
-- Scientific Surveys
+- Epidemiology
 name: Prashant Nair 
 organizations:
 - name: James Cook University, Australia 

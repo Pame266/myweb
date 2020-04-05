@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Health Data Scientist</title>
+    <title>Authors on Health Data Scientist</title>
     <link>/authors/</link>
-    <description>Recent content on Health Data Scientist</description>
+    <description>Recent content in Authors on Health Data Scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +1000</lastBuildDate>
@@ -12,12 +12,48 @@
     
     
     <item>
-      <title>Toxicokinetics and recovery studies of dicamba dimethyl amine salt in goats following single oral administration</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Thu, 01 Jul 2010 00:00:00 +1000</pubDate>
+      <title></title>
+      <link>/authors/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +1000</pubDate>
       
-      <guid>/publication/conference-paper/</guid>
-      <description>DDAS persists in the body for a shorter period and its major excretory route is through urine. DDAS has lower affinity to accumulate in tissues, and intensity of cellular alterations is not severe after single-dose oral administration.</description>
+      <guid>/authors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +1000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kirsten Heimann</title>
+      <link>/authors/kirsten-heimann/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/authors/kirsten-heimann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lone Hoj</title>
+      <link>/authors/lone-hoj/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/authors/lone-hoj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Oelgemöeller</title>
+      <link>/authors/michael-oelgem%C3%B6eller/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/authors/michael-oelgem%C3%B6eller/</guid>
+      <description></description>
     </item>
     
   </channel>
