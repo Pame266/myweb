@@ -33,15 +33,15 @@ subtitle = ""
   description = "70%"
   
 [[feature]]
-  icon = "feather"
+  icon = "python"
   icon_pack = "fas"
-  name = "Writing"
-  description = "70%"
+  name = "Python"
+  description = "60%"
   
 [[feature]]
   icon = "align-justify"
   icon_pack = "fas"
-  name = "Data Wrangling"
+  name = "Tidy Data"
   description = "80%"
 
 [[feature]]
