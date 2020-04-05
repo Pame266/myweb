@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests span accross open-source programming languages, health data science, analysis, visualisation, statistics and modelling. 
+bio: An open-source programming languages, health data science, analysis, visualisation, statistics and modelling advocate. 
 education:
   courses:
   - course: PhD Candidate in Computational Toxicology
@@ -25,7 +25,7 @@ name: Prashant Nair
 organizations:
 - name: James Cook University, Australia 
   url: "https://www.jcu.edu.au/"
-role: PhD Candidate in Computational Toxicology 
+role: PhD Candidate in Computational Toxicology
 social:
 - icon: envelope
   icon_pack: fas
