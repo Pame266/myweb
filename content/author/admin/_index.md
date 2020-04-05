@@ -6,7 +6,7 @@ education:
   courses:
   - course: PhD Candidate in Computational Toxicology
     institution: James Cook University, Australia 
-    year: Enrolled - 2015
+    year: enrolled - 2015
   - course: Masters in Pharmacology and Toxicology 
     institution: WBUAFS, India  
     year: 2009
@@ -17,10 +17,10 @@ email: "prashantmnair@gmail.com"
 interests:
 - Health Data Science 
 - Artificial Intelligence 
-- Statistics 
+- Biostatistics 
 - Visualisation
-- Pharmacology 
-- Toxicology
+- Drug Research 
+- Scientific Surveys
 name: Prashant Nair 
 organizations:
 - name: James Cook University, Australia 
