@@ -4,20 +4,20 @@ authors:
 bio: My interests span accross open-source programming languages, health data science, analysis, visualisation, statistics and modelling. 
 education:
   courses:
-  - course: PhD candidate in Computational Toxicology (Thesis 80% complete)
-    institution: James Cook University 
-    year: enrolled since 2015
+  - course: PhD Candidate in Computational Toxicology
+    institution: James Cook University, Australia 
+    year: Enrolled - 2015
   - course: Masters in Pharmacology and Toxicology 
-    institution: West Bengal University of Animal and Fishery Sciences 
+    institution: WBUAFS, India  
     year: 2009
-  - course: Doctor of Veterinary Medicine (BVSc & AH)
-    institution: Kerala Agricultural University 
+  - course: Doctor of Veterinary Medicine
+    institution: KAU, India 
     year: 2007
 email: "prashantmnair@gmail.com"
 interests:
-- Health data science 
+- Health Data Science 
 - Statistics 
-- Modelling
+- Pridictive Modelling
 - Visualisation
 - Pharmacology 
 - Toxicology
