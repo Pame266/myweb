@@ -16,8 +16,8 @@ education:
 email: "prashantmnair@gmail.com"
 interests:
 - Health Data Science 
+- Artificial Intelligence 
 - Statistics 
-- Pridictive Modelling
 - Visualisation
 - Pharmacology 
 - Toxicology
@@ -38,7 +38,7 @@ social:
   link: https://github.com/Pame266
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/prashant4toxicology/
+  link: https://www.linkedin.com/in/prashant4healthdatascience/
 - icon: stack-overflow
   icon_pack: fab
   link: http://rpubs.com/PNair
